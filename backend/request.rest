@@ -1,0 +1,32 @@
+GET http://localhost:8091/mahasiswa/
+
+###
+GET http://localhost:8091/mahasiswa/50420791
+
+###
+POST http://localhost:8091/mahasiswa/
+Content-Type: application/json
+
+{
+    "npm": "50420792",
+    "nama": "Tamcin",
+    "umur": 20,
+    "jkl": "L",
+    "fakultas": "Teknik Industri",
+    "jurusan": "Teknik Informasi"
+}
+
+###
+PATCH  http://localhost:8091/mahasiswa/50420792
+Content-Type: application/json
+
+{
+    "nama": "VoidFoxTamcin",
+    "umur": 20,
+    "jkl": "L",
+    "fakultas": "Teknik Industri",
+    "jurusan": "Teknik Informasi"
+}
+
+###
+DELETE http://localhost:8091/mahasiswa/50420792
