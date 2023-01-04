@@ -47,7 +47,7 @@ const EditForm = () => {
         <div>
           <Link to={"/"} className="inline-block px-2 py-1 border text-blue-500 underline rounded">Kembali</Link>
         </div>
-        <p className="text-center text-2xl font-bold text-slate-900">Tambah Data Mahasiswa</p>
+        <p className="text-center text-2xl font-bold text-slate-900">Edit Data Mahasiswa</p>
         <form action="" onSubmit={formSubmit}>
           <div className="mb-4 flex flex-col group">
             <label htmlFor="Npm" className="text-sm text-slate-500">NPM</label>
